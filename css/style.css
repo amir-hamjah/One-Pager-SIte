@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+@font-face{
+    src: url(../fonts/Orbitron-Bold.ttf);
+    font-family: orbitron-bold;
+}
+@font-face{
+    src: url(../fonts/Comfortaa-Bold.ttf);
+    font-family: comfortaa-bold;
+}
+body{
+    font-family: comfortaa-Bold;
+}
+.full-wrapper {
+    width: 100%;
+}
+
+.white_space {
+    width: 100%;
+    height: 20px;
+}
+
+.banner1 {
+    background: url(../images/banner.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    height: 100px;
+    background: rgba(1, 6, 13, 0.94);
+}
+
+.navbar-brand {
+    color: white !important;
+    font-family: orbitron-bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white !important;
+}
+
+
+.btn {
+    background: linear-gradient(180deg, white, #23a2e0);
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn-margin {
+    margin-left: 70px;
+}
+
+.banner-head {
+    color: white;
+    font-size: 40px;
+    margin-top: 200px;
+    text-align: right;
+    font-family: orbitron-bold;
+}
+
+.banner-text {
+    color: white;
+    text-align: right;
+    font-size: 20px;
+}
+
+.btn-margin-two {
+    margin-left: 300px;
+}
+
+.gradient-color {
+    background: #001144;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #001144 0%, rgba(6, 6, 44, 0.62) 24%, #001c59 24%, #093080 42%, #003ab7 58%, #002163 75%, #002566 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #001144 0%, #001c59 24%, #001c59 24%, #093080 42%, #003ab7 58%, #002163 75%, #002566 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #001144 0%, #001c59 24%, #001c59 24%, #093080 42%, #003ab7 58%, #002163 75%, #002566 100%);
+    width: 100%;
+    height: auto;
+    z-index: 999;
+}
+
+.nanosimbionik-part {
+    width: 100%;
+    height: 840px;
+    background: url(../images/nano.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.nanosimbionik-part::before {
+    content: '';
+    width: 100%;
+    height: 840px;
+    background: linear-gradient(90deg, rgba(6, 6, 44, 0.62), rgba(0, 58, 183, 0.93));
+    position: absolute;
+    left: 0;
+    box-shadow: 0 0 10px #001144, 0 0 20px #001144, 0 0 40px #001144, 0 0 50px #001144, 0 0 100px #001144;
+}
+
+.nanosimbionikcard-body {
+    background: #001144;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #001144 0%, #001144 24%, rgba(0, 28, 89, 0.9) 24%, rgba(9, 48, 128, 0.92) 42%, rgba(0, 58, 183, 0.9) 58%, rgba(0, 33, 99, 0.94) 75%, rgba(0, 37, 102, 0.94) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #001144 0%, rgba(0, 28, 89, 0.87) 24%, rgba(0, 28, 89, 0.9) 24%, rgba(9, 48, 128, 0.92) 42%, rgba(0, 58, 183, 0.9) 58%, rgba(0, 33, 99, 0.94) 75%, rgba(0, 37, 102, 0.94) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #001144 0%, #001c59 24%, #001c59 24%, #093080 42%, #003ab7 58%, #002163 75%, #002566 100%);
+}
+
+.header-nano {
+    font-size: 20px;
+    color: white;
+}
+
+.card-text {
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+/*Nanosimbionik complete*/
+
+
+.Mechanotransduktion-banner {
+    width: 100%;
+    height: auto;
+    background: url(../images/businessman-holding-3d-render-dna_110893-1254.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Mechanotransduktion-banner::before {
+    content: '';
+    width: 100%;
+    height: 840px;
+    background: rgba(6, 6, 44, 0.9);
+    position: absolute;
+    left: 0;
+}
+
+.MechanotransduktionPart {
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+.headerMechanotransduktion {
+    font-size: 20px;
+    color: white;
+}
+
+.Mechanotransduktiontext {
+    color: white;
+    font-size: 15px;
+}
+
+.ab {
+    color: white;
+}
+
+
+.card-img-top {
+    height: 300px;
+}
+
+
+
+.ai {
+    width: 100%;
+    max-height: auto;
+    background: url(../images/banner2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-blend-mode:overlay;
+}
+
+.ai::before {
+    content: '';
+    width: 100%;
+    height: 100%;;
+    background: linear-gradient( 90deg,rgba(0, 0, 42, 0.79) 40%,rgba(28, 28, 147, 0.9) 10%,rgba(0, 0, 42, 0.79) 20%);
+    position: absolute;
+    left: 0;
+}
+.bg{
+     width: 100%;
+    height: auto;
+    background:#010532;
+}
+
+
+#topbtn{
+    background: #4242f4;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 1000;
+    color: white;
+}
